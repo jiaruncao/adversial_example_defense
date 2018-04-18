@@ -70,9 +70,11 @@
 
 ## 作者相关
 Author ：Jiarun Cao  
-Advisor : Prof.Chongwen Wang
+Advisor : Prof.Chongwen Wang  
 Address：Beijing Insitute of Technology  
-E-mail : 2211241432@qq.com && jiaruncao.china@Gmail.com  
+E-mail : 2211241432@qq.com && jiaruncao.china@Gmail.com 
+
+ 
 
 
 
