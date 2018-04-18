@@ -1,0 +1,6 @@
+model_checkpoint_path: "cifar10-85"
+all_model_checkpoint_paths: "cifar10-65"
+all_model_checkpoint_paths: "cifar10-70"
+all_model_checkpoint_paths: "cifar10-75"
+all_model_checkpoint_paths: "cifar10-80"
+all_model_checkpoint_paths: "cifar10-85"
