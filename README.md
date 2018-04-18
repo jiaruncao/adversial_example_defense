@@ -23,7 +23,7 @@
 * `fgsm_make_ad.py`：对Mnist数据集生成对抗性样本（FGSM）
 * `my_cifar10_train.py`：基于Cifar-10数据集训练模型
 * `my_cifar10_eval.py`：模型预测
-* `my_cifar10_maka_ad.py`：对Mnist数据集生成对抗性样本（FGMT）
+* `my_cifar10_maka_ad.py`：对Cifar-10数据集生成对抗性样本（FGMT）
 * `get_clean_img.py`：提取Cifar-10数据集，以.png格式保存到本地
 
 * `attack/attacks/`：该文件夹是对攻击方法的代码封装
