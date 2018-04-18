@@ -26,8 +26,8 @@
 * `my_cifar10_maka_ad.py`：对Mnist数据集生成对抗性样本（FGMT）
 * `get_clean_img.py`：提取Cifar-10数据集，以.png格式保存到本地
 
-* #### `attack/attacks`文件夹是对攻击方法的代码封装
-* #### `attack/example`文件夹是上述所有攻击方法在Mnist数据集的实现（尝试了不同的迭代次数、扰动值等）  
+* `attack/attacks`：该文件夹是对攻击方法的代码封装
+* `attack/example`：该文件夹是上述所有攻击方法在Mnist数据集的实现（尝试了不同的迭代次数、扰动值等）  
 
 
 
@@ -50,8 +50,9 @@
 * `dct.py`：将输入的图片做dct变换，再做逆变换，并保存新图  
 * `create_ad.py`：生成对抗性图片 
 * `create_gray_scale_image`：生成灰度图
-* `imagenet_classes.py`：对抗性攻击目标
-**[代码来源](https://mp.weixin.qq.com/s/jgeCqz1VwY92BfTLFahu1Q)**  
+* `imagenet_classes.py`：对抗性攻击目标  
+**[代码来源](https://mp.weixin.qq.com/s/jgeCqz1VwY92BfTLFahu1Q)** 
+ 
 
 
 
