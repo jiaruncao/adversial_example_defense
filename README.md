@@ -4,7 +4,7 @@
 
 同时，对于已经生成的对抗性样本做某些图像变换，去除对抗性样本噪声(noise)，从而消除对抗性样本的影响，达到防御的效果。
 
-【注】：实验数据采用了Mnist/Cifar-10
+**【注】：实验数据采用了Mnist/Cifar-10**
 ## 攻击
 
 ###攻击方法
@@ -54,7 +54,7 @@
 * 基于cifar-10生成的对抗性样本效果很差，完全看不出图像原始的样子，基本无法使用
 
 ## 作者相关
-Author Name：Jiarun Cao
-Address：Beijing Insitute of Technology
-E-mail:2211241432@qq.com && jiaruncao.china@Gmail.com
+  Author Name：Jiarun Cao
+  Address：Beijing Insitute of Technology
+  E-mail:2211241432@qq.com && jiaruncao.china@Gmail.com
 
