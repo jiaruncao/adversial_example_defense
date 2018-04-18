@@ -45,8 +45,7 @@
 
 
 ## 原始版本
-#### `initial_version/`文件夹是最原始的版本，实现了对单张图像的对抗性攻击和DCT去噪处理，
-数据集采用ImageNet中的图像，模型采用了Inception V3（Keras中的预训练模型），攻击方法采用FGMT，具体如下：
+`initial_version/`文件夹是最原始的版本，实现了对单张图像的对抗性攻击和DCT去噪处理，数据集采用ImageNet中的图像，模型采用了Inception V3（Keras中的预训练模型），攻击方法采用FGMT，具体如下：
 * `dection.py`：模型预测
 * `dct.py`：将输入的图片做dct变换，再做逆变换，并保存新图  
 * `create_ad.py`：生成对抗性图片 
