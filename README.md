@@ -66,7 +66,7 @@
 
 ## 目前的问题
 * 对于cifar-10的模型识别准确率低于baseline（模型采用TensorFlow官方网站的tutorial）
-* 基于cifar-10生成的对抗性样本效果很差，完全看不出图像原始的样子，基本无法使用
+* 基于cifar-10生成的对抗性样本效果较差
 
 ## 作者相关
 Author ：Jiarun Cao  
