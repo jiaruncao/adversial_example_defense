@@ -69,7 +69,7 @@
 * 基于cifar-10生成的对抗性样本效果较差
 
 ## 作者相关
-Author ：Jiarun Cao
+Author ：Jiarun Cao  
 Advisor : Prof.Chongwen Wang
 Address：Beijing Insitute of Technology  
 E-mail : 2211241432@qq.com && jiaruncao.china@Gmail.com  
