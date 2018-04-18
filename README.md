@@ -45,13 +45,16 @@
 
 
 ## 原始版本
+[代码来源](https://mp.weixin.qq.com/s/jgeCqz1VwY92BfTLFahu1Q)  
+
 `initial_version/`文件夹是最原始的版本，实现了对单张图像的对抗性攻击和DCT去噪处理，数据集采用ImageNet中的图像，模型采用了Inception V3（Keras中的预训练模型），攻击方法采用FGMT，具体如下：
 * `dection.py`：模型预测
 * `dct.py`：将输入的图片做dct变换，再做逆变换，并保存新图  
 * `create_ad.py`：生成对抗性图片 
 * `create_gray_scale_image`：生成灰度图
 * `imagenet_classes.py`：对抗性攻击目标  
-**[代码来源](https://mp.weixin.qq.com/s/jgeCqz1VwY92BfTLFahu1Q)** 
+
+
  
 
 
