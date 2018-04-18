@@ -1,4 +1,4 @@
-# 对抗性样本攻击与防御（中文版）
+# 对抗性样本攻击与防御
 
 该代码探究了一种对于图像的攻击与防御方法。使用多种对抗性样本生成方法，在标准数据集上批量生成对抗性样本，从而达到欺骗神经网络的效果。
 
@@ -55,8 +55,6 @@
 
 ## 作者相关
   Author Name：Jiarun Cao
-  
   Address：Beijing Insitute of Technology
-
-  E-mail:2211241432@qq.com && jiaruncao.china@Gmail.com
+  E-mail: 2211241432@qq.com && jiaruncao.china@Gmail.com
 
