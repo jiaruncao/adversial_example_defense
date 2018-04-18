@@ -54,50 +54,30 @@ def model(x, logits=False, training=False):
     with tf.name_scope('conv0'):
         y = tf.layers.conv2d(y, filters=64, kernel_size=3,strides=1,
                              padding='same',activation=tf.nn.relu)
-        #y = Convolution2D(filters=64, kernel_size=3, strides=1, padding='same', activation='relu',
-        #                    kernel_initializer='he_normal')(y)
     with tf.name_scope('conv2'):
         y = tf.layers.conv2d(y, filters=64, kernel_size=3,strides=1,
                              padding='same', activation=tf.nn.relu)
-    #y = Convolution2D(filters=64, kernel_size=3, strides=1, padding='same', activation='relu',
-     #                 kernel_initializer='he_normal')(y)
         y = tf.layers.max_pooling2d(y, pool_size=2, strides=2,padding = 'valid')
-        #y = MaxPooling2D(pool_size=2, strides=2, padding='valid')(y)
     with tf.name_scope('conv3'):
         y = tf.layers.conv2d(y, filters=128, kernel_size=3, strides=1,
                              padding='same', activation=tf.nn.relu)
-        #y = Convolution2D(filters=128, kernel_size=3, strides=1, padding='same', activation='relu',
-        #                kernel_initializer='he_normal')(y)
     with tf.name_scope('conv4'):
         y = tf.layers.conv2d(y, filters=128, kernel_size=3, strides=1,
                              padding='same', activation=tf.nn.relu)
-        #y = Convolution2D(filters=128, kernel_size=3, strides=1, padding='same', activation='relu',
-        #                 kernel_initializer='he_normal')(y)
         y = tf.layers.max_pooling2d(y, pool_size=2, strides=2, padding='valid')
-        #y = MaxPooling2D(pool_size=2, strides=2, padding='valid')(y)
     with tf.name_scope('conv5'):
         y = tf.layers.conv2d(y, filters=256, kernel_size=3, strides=1,
                              padding='same', activation=tf.nn.relu)
-    #y = Convolution2D(filters=256, kernel_size=3, strides=1, padding='same', activation='relu',
-     #                 kernel_initializer='he_normal')(y)
     with tf.name_scope('con6'):
         y = tf.layers.conv2d(y, filters=256, kernel_size=3, strides=1,
                              padding='same', activation=tf.nn.relu)
-    #y = Convolution2D(filters=256, kernel_size=3, strides=1, padding='same', activation='relu',
-     #                 kernel_initializer='he_normal')(y)
         y = tf.layers.max_pooling2d(y, pool_size=2, strides=2, padding='valid')
-    #y = MaxPooling2D(pool_size=2, strides=2, padding='valid')(y)
     with tf.variable_scope('flatten'):
         shape = y.get_shape().as_list()
         y = tf.reshape(y, [-1, np.prod(shape[1:])])
-    #y = Flatten()(y)
     with tf.variable_scope('mlp'):
         y = tf.layers.dense(y, units=128, activation=tf.nn.relu)
         y = tf.layers.dropout(y, rate=0.5, training=training)
-    #y = Dense(units=128, activation='relu', kernel_initializer='he_normal')(y)
-    #y = Dropout(0.5)(y)
-    #logits_ = y
-    #y = Dense(units=n_classes, activation='softmax', kernel_initializer='he_normal')(y)
     logits_ = tf.layers.dense(y, units=10, name='logits')
     y = tf.nn.softmax(logits_, name='ybar')
     if logits:
@@ -134,8 +114,6 @@ with tf.variable_scope('model'):
         env.train_op = optimizer.minimize(env.loss)
 
     env.saver = tf.train.Saver()
-#with tf.variable_scope(tf.get_variable_scope().reuse_variables()) as scope:
-#with tf.variable_scope(tf.get_variable_scope()) as vscope:
 with tf.variable_scope('model', reuse=tf.AUTO_REUSE) :
     env.fgsm_eps = tf.placeholder(tf.float32, (), name='fgsm_eps')
     env.fgsm_epochs = tf.placeholder(tf.int32, (), name='fgsm_epochs')
