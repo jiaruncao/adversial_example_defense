@@ -11,7 +11,7 @@
 ### 攻击方法
 * [fgsm](https://arxiv.org/abs/1412.6572)(fast gradient sign method)
 * [fgmt](https://arxiv.org/pdf/1607.02533.pdf)(fast gradient method with target)
-* [deeo fool](https://arxiv.org/abs/1511.04599)
+* [deep fool](https://arxiv.org/abs/1511.04599)
 * [jsma](https://arxiv.org/abs/1511.07528)(Jacobian-based saliency map approach)
 
 **点击以查看相关论文**
