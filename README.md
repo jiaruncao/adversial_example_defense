@@ -2,7 +2,7 @@
 
 该代码探究了一种对于图像的攻击与防御方法。使用多种对抗性样本生成方法，在标准数据集上批量生成对抗性样本，从而达到欺骗神经网络的效果。同时，对于已经生成的对抗性样本做某些图像变换，去除对抗性样本噪声(noise)，从而消除对抗性样本的影响，达到防御的效果。  
 
-**【注】：实验数据采用了Mnist/Cifar-10**  
+**【注】实验数据采用了Mnist/Cifar-10**  
 
 
 
@@ -71,7 +71,7 @@
 ## 作者相关
 Author ：Jiarun Cao  
 Address：Beijing Insitute of Technology  
-E-mail: 2211241432@qq.com && jiaruncao.china@Gmail.com  
+E-mail : 2211241432@qq.com && jiaruncao.china@Gmail.com  
 
 *如果对您有帮助，请Star一下，不胜感激*
 
