@@ -26,8 +26,8 @@
 * `my_cifar10_maka_ad.py`：对Mnist数据集生成对抗性样本（FGMT）
 * `get_clean_img.py`：提取Cifar-10数据集，以.png格式保存到本地
 
-* `attack/attacks`：该文件夹是对攻击方法的代码封装
-* `attack/example`：该文件夹是上述所有攻击方法在Mnist数据集的实现（尝试了不同的迭代次数、扰动值等）  
+* `attack/attacks/`：该文件夹是对攻击方法的代码封装
+* `attack/example/`：该文件夹是上述所有攻击方法在Mnist数据集的实现（尝试了不同的迭代次数、扰动值等）  
 
 **为了节省训练时间，`attack/example/`中存放了两个已经训练好的模型：**  
 * `model/`：Mnist的预训练模型
