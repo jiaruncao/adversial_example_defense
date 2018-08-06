@@ -75,6 +75,19 @@ Address：Beijing Insitute of Technology
 E-mail : 2211241432@qq.com && jiaruncao.china@Gmail.com 
 
  
+## 2018-08-06更新  
+提出了基于图像变换的防御方法:  
+- Image quilting
+- Total variation minimization
+- JPEG compression
+- Pixel quantization
+  
+论文：  
+- Chuan Guo, Mayank Rana, Moustapha Cisse, and Laurens van der Maaten. **Countering Adversarial Images using Input Transformations**. arXiv 1711.00117, 2017. [[PDF](https://arxiv.org/pdf/1711.00117.pdf)]    
+代码：  
+[adversarial_image_defenses](https://github.com/taianjianbing/adversarial_image_defenses)
+
+
 
 
 
