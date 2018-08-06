@@ -83,7 +83,8 @@ E-mail : 2211241432@qq.com && jiaruncao.china@Gmail.com
 - Pixel quantization
   
 论文：  
-- Chuan Guo, Mayank Rana, Moustapha Cisse, and Laurens van der Maaten. **Countering Adversarial Images using Input Transformations**. arXiv 1711.00117, 2017. [[PDF](https://arxiv.org/pdf/1711.00117.pdf)]    
+- Chuan Guo, Mayank Rana, Moustapha Cisse, and Laurens van der Maaten. **Countering Adversarial Images using Input Transformations**. arXiv 1711.00117, 2017. [[PDF](https://arxiv.org/pdf/1711.00117.pdf)]  
+
 代码：  
 [adversarial_image_defenses](https://github.com/taianjianbing/adversarial_image_defenses)
 
